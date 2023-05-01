@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my personal web portfolio</title>
+<script src="https://kit.fontawesome.com/3033eb085d.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="banner">
+<div class="navbar">
+    <div class="logo">John.</div>
+    
+    <ul>
+        <li><a href="#banner" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#Contact">Contact</a></li>
+    </ul>
+</div>
+</div>
+<div class="content">
+    <p>Hello, I'm  <span class="typedText"></span></p>
+    <input type="button" value="View CV" class="btn">
+    
+    <div class="social-media">
+    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+    <a href="#"><i class="fa-brands fa-github"></i></a>
+    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+
+</div>
+
+    <div class="photo"></div>
+</div>
+</section>
+
+<section id="about">
+    <div class="heading">
+        <h1> <u> <span>A</span>bout Me</u></h1>
+        </div>
+    <p1>Am an enthusiastic software engineer with abroad of technical skills. <br> My objective is to meet the needs of the user which are everchanging.
+    I build websites which are customized and user friendly using HTML, CSS and JAVASCRIPT. Also graphic designing using tools such as adobe illustrator and coreldraw</p1>
+
+   
+<div class="about-img"></div>
+<div class="more">
+    <input type="button" value="Read More" class="btn">
+</div>
+
+</section>
+<section id="Skills">
+    
+    <div class="heading">
+        <h1> <u> <span>MY </span>Skills</u></h1>
+        </div>
+    
+       <p2>I am proficient in the following programming languages:</p2>
+       <ol type="a" start="1">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JAVASCRIPT</li>
+        <li>REACT</li>
+       </ol>
+
+
+    
+
+</section>
+<section id="Projects">
+    <div class="heading">
+        <h1> <u> <span>MY </span>Projects</u></h1>
+        </div>
+    <div class="projects">
+       
+    <div class="project1">
+        <a href="">  
+            <img 
+          height="230"
+          width="230"
+          src="programming-background-collage.jpg" alt="project 1"></a> 
+      
+      </div>
+      
+      
+      <div class="project2">
+          <a href=""> <img 
+            height="230"
+            width="230"
+            src="homepage-seen-laptop-screen.jpg" alt="project 2"></a> 
+        
+        </div>
+        
+        
+        <div class="project3">
+          <a href=""> <img 
+            height="230"
+            width="230"
+            src="analysis-strategy-study-information-business-planning.jpg" alt="project 3"></a> 
+        
+        </div>
+       
+        
+        <div class="project4">
+          <a href=""> <img 
+            height="230"
+            width="230"
+            src="programming-background-collage.jpg" alt="project 4"></a> 
+        
+        </div>
+       
+    </div>
+</section>
+<section id="Contact">
+    
+    <div class="heading">
+        <h1> <u> <span>Contact</span> Me</u></h1>
+        </div>
+    
+    <form action="#">
+        <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="text" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="email" placeholder="Email Subject">
+        
+        </div>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Your message">
+           
+        </textarea> 
+        <input type="submit" value="Send Message" class="Contact-btn">
+
+        
+
+    </form>
+    
+</section>
+<script src="path/to/smooth-scroll.polyfills.min.js"></script>
+
+<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('.typedText',{
+        strings:['John ndichu','Software engineer','Web developer','Graphic designer'],
+        typeSpeed:100,
+        backSpeed:100,
+        loop:true,
+    });
+    var scroll = new SmoothScroll('a[href*="#"]', {
+	speed: 500,
+	speedAsDuration: true
+});
+    
+</script>
+</body>
+</html>
